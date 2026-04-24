@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema de las 8 Reinas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Problema de las 8 Reinas</h1>
+        
+        <div class="controls">
+            <button id="findSolutions">Encontrar todas las soluciones</button>
+            <button id="clearBoard">Limpiar tablero</button>
+            <div class="solution-counter">
+                <span id="solutionCount">0</span> soluciones encontradas
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="interactive-section">
+                <h2>Tablero Interactivo</h2>
+                <div id="interactiveBoard" class="board"></div>
+                <div id="message" class="message"></div>
+            </div>
+
+            <div class="solutions-section">
+                <h2>Todas las Soluciones</h2>
+                <div id="solutionsContainer" class="solutions-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
